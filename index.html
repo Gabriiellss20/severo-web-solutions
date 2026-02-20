@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description"
+    content="Severo Web Solutions — websites profissionais com performance, autoridade e conversão." />
+  <title>Severo Web Solutions</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Tipografia premium (pode trocar depois) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+    
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="./assets/img/favicon1/favicon-32x32.png" />
+</head>
+
+<body>
+  <!-- Background FX -->
+  <div class="bg">
+    <div class="bg__radial"></div>
+    <div class="bg__grain"></div>
+    <div class="bg__stars"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top-nav">
+    <div class="container header__wrap">
+      <a class="brand" href="#top" aria-label="Severo Web Solutions">
+        <!-- Troque por sua logo -->
+        <img class="brand__logo" src="./assets/img/logo.png" alt="Severo Web Solutions" />
+        <span class="brand__text">
+          <strong>SEVERO</strong>
+          <em>WEB SOLUTIONS</em>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false"
+          aria-controls="navList">
+          <span></span><span></span><span></span>
+        </button>
+
+
+        <ul class="nav__list" id="navList">
+          <li><a class="nav__link" href="#servicos">Serviços</a></li>
+          <li><a class="nav__link" href="#processo">Processo</a></li>
+          <li><a class="nav__link" href="#portfolio">Portfólio</a></li>
+          <li><a class="nav__link" href="#depoimentos">Depoimentos</a></li>
+          <li><a class="nav__link" href="#planos">Planos</a></li>
+          <li><a class="nav__link" href="#faq">FAQ</a></li>
+          <li><a class="nav__link nav__link--cta" href="#contato">Orçamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero section" id="top">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="kicker">Severo Web Solutions</p>
+          <h1 class="title">
+            Websites premium que elevam a <span class="glow">autoridade</span> da sua empresa.
+          </h1>
+          <p class="subtitle">
+            Design sofisticado, performance e conversão — para sua marca parecer grande e vender mais.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contato">Solicitar orçamento</a>
+            <a class="btn btn--ghost" href="#portfolio">Ver portfólio</a>
+          </div>
+
+          <div class="hero__trust">
+            <div class="pill">⚡ Performance</div>
+            <div class="pill">🔒 Segurança</div>
+            <div class="pill">🎯 Conversão</div>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="hero__cardTop">
+            <span class="badge">Entrega rápida</span>
+            <span class="badge badge--soft">Suporte contínuo</span>
+          </div>
+
+          <div class="stat">
+            <div class="stat__label">Tempo médio de entrega</div>
+            <div class="stat__value">7–14 dias</div>
+          </div>
+          <div class="stat">
+            <div class="stat__label">Foco</div>
+            <div class="stat__value">Autoridade + UX</div>
+          </div>
+
+          <div class="hero__line"></div>
+
+          <p class="muted">
+            “Seu site não é um custo — é um vendedor online 24/7.”
+          </p>
+
+          <a class="btn btn--secondary" href="#contato">Quero um site profissional</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Serviços</h2>
+          <p class="p">
+            Soluções objetivas para transformar presença digital em credibilidade e clientes.
+          </p>
+        </div>
+
+        <div class="grid3">
+          <article class="card">
+            <div class="icon">⟡</div>
+            <h3>Site Institucional</h3>
+            <p>Um site completo e profissional para sua empresa se posicionar como referência.</p>
+            <ul class="list">
+              <li>Design premium responsivo</li>
+              <li>SEO básico</li>
+              <li>Formulário + WhatsApp</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="icon">⌁</div>
+            <h3>Landing Page</h3>
+            <p>Página focada em conversão para campanhas e anúncios.</p>
+            <ul class="list">
+              <li>Copy + CTA estratégicos</li>
+              <li>Leve e rápida</li>
+              <li>Métricas e integração</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="icon">⟁</div>
+            <h3>Manutenção</h3>
+            <p>Atualizações, backups, melhorias e suporte contínuo.</p>
+            <ul class="list">
+              <li>Correções e ajustes</li>
+              <li>Segurança e backup</li>
+              <li>Melhorias mensais</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Portfólio</h2>
+          <p class="p">Alguns projetos e modelos prontos para acelerar sua entrega.</p>
+        </div>
+
+        <div class="grid3">
+          <!-- Troque os links pelos seus -->
+          <a class="work" href="#" target="_blank" rel="noopener">
+            <div class="work__thumb"></div>
+            <div class="work__meta">
+              <strong>Projeto 01</strong>
+              <span>Institucional</span>
+            </div>
+          </a>
+
+          <a class="work" href="#" target="_blank" rel="noopener">
+            <div class="work__thumb"></div>
+            <div class="work__meta">
+              <strong>Projeto 02</strong>
+              <span>Landing</span>
+            </div>
+          </a>
+
+          <a class="work" href="#" target="_blank" rel="noopener">
+            <div class="work__thumb"></div>
+            <div class="work__meta">
+              <strong>Projeto 03</strong>
+              <span>Profissional</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="note">
+          Dica: use mockups (celular/notebook) para aumentar o valor percebido.
+        </div>
+      </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="section" id="diferenciais">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Diferenciais</h2>
+          <p class="p">Você não recebe só um site — recebe um projeto com estratégia.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="panel">
+            <h3>Design + UX que transmite confiança</h3>
+            <p>Layout limpo e premium, com hierarquia visual e leitura rápida.</p>
+          </div>
+          <div class="panel">
+            <h3>Performance real</h3>
+            <p>Carregamento rápido, boas práticas e otimização de assets.</p>
+          </div>
+          <div class="panel">
+            <h3>Conversão</h3>
+            <p>CTA, prova social e seções focadas em levar o visitante à ação.</p>
+          </div>
+          <div class="panel">
+            <h3>Suporte contínuo</h3>
+            <p>Manutenção mensal e evolução do site conforme o negócio cresce.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Como trabalhamos -->
+    <section class="section" id="processo">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Como trabalhamos</h2>
+          <p class="p">Um processo simples, rápido e organizado — sem enrolação.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <span class="step__n">01</span>
+            <h3>Briefing</h3>
+            <p>Entendo seu negócio, seu público e o objetivo do site (vender, captar leads ou autoridade).</p>
+          </div>
+          <div class="step">
+            <span class="step__n">02</span>
+            <h3>Design + Conteúdo</h3>
+            <p>Estrutura e visual premium, com textos objetivos e CTA nos pontos certos.</p>
+          </div>
+          <div class="step">
+            <span class="step__n">03</span>
+            <h3>Build + Performance</h3>
+            <p>Implementação responsiva (mobile-first), otimização de carregamento e SEO básico.</p>
+          </div>
+          <div class="step">
+            <span class="step__n">04</span>
+            <h3>Publicação</h3>
+            <p>Coloco no ar, faço testes finais e deixo tudo pronto para você anunciar e crescer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="section" id="depoimentos">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Depoimentos</h2>
+          <p class="p">Prova social aumenta conversão. Aqui ficam as avaliações dos seus clientes.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="quote">
+            <p>“Layout impecável e rápido. Passou muito mais confiança para minha empresa.”</p>
+            <span>Cliente — Serviço</span>
+          </article>
+          <article class="quote">
+            <p>“O site ficou lindo no celular e as mensagens no WhatsApp aumentaram.”</p>
+            <span>Cliente — Negócio local</span>
+          </article>
+          <article class="quote">
+            <p>“Entrega rápida e comunicação excelente. Recomendo!”</p>
+            <span>Cliente — Profissional</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Planos -->
+    <section class="section" id="planos">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Planos</h2>
+          <p class="p">Escolha o pacote ideal. Se preferir, eu monto uma proposta personalizada.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="price">
+            <h3>Start</h3>
+            <p class="muted">Landing page de alta conversão</p>
+            <ul class="list">
+              <li>1 página (one-page)</li>
+              <li>CTA WhatsApp + formulário</li>
+              <li>SEO básico</li>
+              <li>Entrega rápida</li>
+            </ul>
+            <a class="btn btn--primary" href="#contato">Quero este</a>
+          </article>
+
+          <article class="price price--featured">
+            <div class="badge">Mais pedido</div>
+            <h3>Pro</h3>
+            <p class="muted">Institucional completo e premium</p>
+            <ul class="list">
+              <li>Seções completas (serviços, portfólio, FAQ)</li>
+              <li>Design premium + performance</li>
+              <li>Integrações (Analytics / Pixel)</li>
+              <li>Publicação e testes</li>
+            </ul>
+            <a class="btn btn--primary" href="#contato">Solicitar orçamento</a>
+          </article>
+
+          <article class="price">
+            <h3>Growth</h3>
+            <p class="muted">Evolução contínua com manutenção</p>
+            <ul class="list">
+              <li>Atualizações e melhorias mensais</li>
+              <li>Segurança + backup</li>
+              <li>Novas seções quando precisar</li>
+              <li>Suporte prioritário</li>
+            </ul>
+            <a class="btn btn--primary" href="#contato">Quero crescer</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">FAQ</h2>
+          <p class="p">Respostas rápidas para acelerar sua decisão.</p>
+        </div>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary>Quanto tempo leva para entregar?</summary>
+            <p>Em média de 7 a 14 dias, dependendo do conteúdo e quantidade de páginas/funcionalidades.</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>Vocês colocam o site no ar?</summary>
+            <p>Sim. Eu faço a configuração, publicação e testes finais (domínio + hospedagem do cliente).</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>O site é responsivo?</summary>
+            <p>Sim. Tudo é pensado para celular primeiro (mobile-first).</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section" id="contato">
+      <div class="container contact">
+        <div class="contact__left">
+          <h2 class="h2">Vamos construir seu site?</h2>
+          <p class="p">Me diga o que você precisa e eu retorno com uma proposta objetiva.</p>
+
+          <div class="contact__boxes">
+            <div class="mini">
+              <strong>WhatsApp</strong>
+              <span id="whatsText">Clique no botão flutuante</span>
+            </div>
+            <div class="mini">
+              <strong>Email</strong>
+              <span><a class="link" href="mailto:gabriiellss20@gmail.com">gabriiellss20@gmail.com</a></span>
+            </div>
+            <div class="mini">
+              <strong>Prazo</strong>
+              <span>Entrega rápida e organizada</span>
+            </div>
+          </div>
+
+          <div class="tiny muted">
+            Ao enviar, você concorda em ser contatado para orçamento.
+          </div>
+        </div>
+
+        <div id="sentMsg" class="note" style="display:none; margin-bottom:12px;">
+          Mensagem enviada com sucesso! Vou te responder em breve. ✅
+        </div>
+
+
+        <form class="contact__form" id="contactForm" action="#" method="post">
+          <label>
+            <span>Nome</span>
+            <input name="name" type="text" placeholder="Seu nome" required />
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" placeholder="seuemail@dominio.com" required />
+          </label>
+
+          <label>
+            <span>WhatsApp</span>
+            <input name="phone" type="text" placeholder="(00) 00000-0000" />
+          </label>
+
+          <label>
+            <span>Mensagem</span>
+            <textarea name="message" rows="5" placeholder="Conte sobre seu negócio e o que você precisa"
+              required></textarea>
+          </label>
+
+          <!-- Honeypot anti-spam -->
+          <input type="text" name="company" class="hp" tabindex="-1" autocomplete="off" />
+          <input type="hidden" name="brand" id="brandField">
+          <input type="hidden" name="whats_phone" id="whatsPhoneField">
+
+
+          <button class="btn btn--primary" type="submit">Enviar</button>
+          <p class="tiny muted">Se preferir, chame no WhatsApp e envio uma proposta.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <span>© <span id="year"></span> Severo Web Solutions. Todos os direitos reservados.</span>
+      <a href="#top" class="footer__top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <a class="wpp" id="wppBtn" href="#" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+    <span>WhatsApp</span>
+  </a>
+
+  <!-- Theme toggle -->
+  <button class="theme" id="themeToggle" type="button" aria-label="Alternar tema">
+    <span class="theme__dot"></span>
+    <span class="theme__label" id="themeLabel">Tema</span>
+  </button>
+
+  <script src="./assets/js/main.js"></script>
+
+  <body data-brand="Severo Web Solutions" data-whats="5565992376920">
+
+</html>
