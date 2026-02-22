@@ -82,6 +82,7 @@ body{
   color:var(--text);
   background:var(--bg);
   overflow-x:hidden;
+  max-width: 100%;
 }
 
 .container{width:min(var(--max), calc(100% - 40px)); margin:0 auto}
