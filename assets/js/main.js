@@ -6,7 +6,7 @@
 
   const body = document.body;
   const brand = body.dataset.brand || 'Severo Web Solutions';
-  const whatsPhone = (body.dataset.whats || '5565992376920').replace(/\D/g, '');
+  const whatsPhone = (body.dataset.whats || '5565993278817').replace(/\D/g, '');
   const defaultMessage = `Olá! Quero um orçamento para um site profissional com a ${brand}.`;
 
   const year = $('#year');
